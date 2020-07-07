@@ -30,6 +30,11 @@
       justify-content: center;
       align-self: center;
     }
+    .img-loading{
+      width: 50px;
+      color:#ff8f00;
+      animation: xoayvong 0.5s linear 0s infinite;
+    }
     .input-section{
       display: flex;
       flex-direction: column;
@@ -63,5 +68,18 @@
         cursor: pointer;
       }
     }
+  }
+}
+
+@keyframes xoayvong {
+  from{
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+  }
+  to{
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
   }
 }
