@@ -1,0 +1,39 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  height: 79px;
+  width: 100%;
+  .nav-item{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+    background-color: #f9fafc;
+    .logo{
+      width: 246px;
+    }
+    .list-item{
+      display: flex;
+      flex-direction: row;
+      .item{
+        padding: 20px;
+      }
+    }
+  }
+  .sign{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 2;
+    .signup{
+      padding: 20px;
+      width: 115px;
+      background-color: #ffffff;
+      cursor: pointer;
+    }
+    .signin{
+      padding: 20px;
+      width: 108px;
+      background-color: #ff8f00;
+      cursor: pointer;
+    }
+  }
+}
