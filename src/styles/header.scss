@@ -10,6 +10,7 @@
     background-color: #f9fafc;
     .logo{
       width: 246px;
+      height: 80px;
       cursor: pointer;
       background-color: #3b4859;
     }
@@ -26,12 +27,14 @@
     flex-direction: row-reverse;
     .signup{
       display: block;
+      height: 80px;
       width: 115px;
       background-color: #ffffff;
       cursor: pointer;
     }
     .signin{
       display: block;
+      height: 80px;
       width: 108px;
       background-color: #ff8f00;
       cursor: pointer;

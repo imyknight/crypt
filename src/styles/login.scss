@@ -1,0 +1,67 @@
+
+.login{
+  background-image: url("https://ck-uat.web.app/background.png");
+  background-color: #201e2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  .content{
+    display: flex;
+    flex-direction: column;
+    .logo{
+      width: 360px;
+      height: 120px;
+      background-color: #201e2c;
+      display: flex;
+      justify-content: center;
+      .logo-item{
+        display: flex;
+        align-items: center;
+        .img-logo{
+          max-height: 12px;
+        }
+      }
+    }
+    .pls-login{
+      color: #8392a7;
+      font-size: 14px;
+      justify-content: center;
+      align-self: center;
+    }
+    .input-section{
+      display: flex;
+      flex-direction: column;
+      input{
+        height: 80px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+      }
+    }
+    .l-btn{
+      display: flex;
+      .btn-su{
+        width: 150px;
+        height: 80px;
+        margin-right: 10px;
+        color: white;
+        background-color: #3b4859;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .btn-li{
+        width: 200px;
+        height: 80px;
+        background-color: #ff8f00;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
