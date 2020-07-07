@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './Header'
 
 function Home() {
   return (
-    <div>
-      <h1>Home comp</h1>
-    </div>
+    <Header>
+      <div>
+        <h1>Home comp</h1>
+      </div>
+    </Header>
   )
 }
 

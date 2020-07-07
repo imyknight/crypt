@@ -10,6 +10,8 @@
     background-color: #f9fafc;
     .logo{
       width: 246px;
+      cursor: pointer;
+      background-color: #3b4859;
     }
     .list-item{
       display: flex;
@@ -22,15 +24,14 @@
   .sign{
     display: flex;
     flex-direction: row-reverse;
-    flex-grow: 2;
     .signup{
-      padding: 20px;
+      display: block;
       width: 115px;
       background-color: #ffffff;
       cursor: pointer;
     }
     .signin{
-      padding: 20px;
+      display: block;
       width: 108px;
       background-color: #ff8f00;
       cursor: pointer;
