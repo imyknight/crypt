@@ -12,6 +12,7 @@ function Home() {
           <div className="c1 pd-30">
             <div className="title">{data.title}</div>
             <div className="content">{data.p}</div>
+            <img className="img-city" alt="city" src="/city.svg" />
           </div>
           <div className="c2">
             <div className="sec-top">
@@ -68,11 +69,13 @@ function Home() {
                 <img alt="next" src="/next.svg" />
               </div>
             </div>
-            <div className="sec-mid">
-              <img className="icon" alt="icon" src="/icon.svg" />
-            </div>
-            <div className="sec-bot">
-              {data.sec_2_c1}
+            <div className="slide">
+              <div className="sec-mid">
+                <img className="icon" alt="icon" src="/icon.svg" />
+              </div>
+              <div className="sec-bot">
+                {data.sec_2_c1}
+              </div>
             </div>
           </div>
           <div className="c2">
@@ -96,7 +99,32 @@ function Home() {
               {data.sec_2_c3_content2}
             </div>
           </div>
-          <div className="c4">4</div>
+          <div className="c4">
+            <div className="sec-top"></div>
+            <div className="sec-mid">
+              <div className="line">
+                <img alt="icon-m" src="/icon-mess.svg" className="icon" />
+                <div className="text ml-10 uline">Support Message</div>
+              </div>
+              <div className="line mt-30">
+                <div className="text">We accept : </div>
+                <img alt="btc" className="icon-l ml-10" src="/btc.svg" />
+                <img alt="eth" className="icon-l ml-10" src="/eth.svg" />
+              </div>
+              <div className="row-btn mt-30">
+                <img alt="apple" src="/button-app-store.svg" />
+                <img className="ml-30" alt="apple" src="/button-googleplay.svg" />
+              </div>
+            </div>
+            <div className="sec-bot">
+              <div className="text">© 2018 CryptoKingdom</div>
+              <div className="list-icon">
+                <img className=" icon" alt="facebook" src="/facebook.svg" />
+                <img className=" icon" alt="tw" src="/twitter.svg" />
+                <img className=" icon" alt="tele" src="/te-legram.svg" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Header>

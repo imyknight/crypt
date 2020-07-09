@@ -16,7 +16,9 @@ const Header = ({ children, props }) => {
         <div className="nav-item">
           <Link to='/'>
             <div className="logo">
-              <img className="img-logo" alt="logo" src="/logo@3x.png" />
+              <div className="text">
+                <b>CRYPTo</b>KINGDOM
+              </div>
             </div>
           </Link>
           <div className="list-nav-item">
