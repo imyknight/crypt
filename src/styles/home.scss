@@ -1,0 +1,235 @@
+
+.body{
+  min-height: 90.5vh;
+  background-image: url("https://ck-uat.web.app/background.png");
+  background-color: #201e2c;
+  //section 1
+  .sec-1{
+    display: flex;
+    .pd-30{
+      padding: 30px;
+    }
+    .c1{
+      display: flex;
+      background-color:#373c47;
+      flex-direction: column;
+      max-width: 33.33%;
+      .title{
+        font-size: 14px;
+        height: 19px;
+        text-align: left;
+        color: white;
+        letter-spacing: 2px;
+        line-height: 1.36;
+      }
+      .content{
+        font-size: 12px;
+        line-height: 22px;
+        color: #8392a7;
+        text-align: left;
+        margin-top: 8px;
+      }
+    }
+    .c2{
+      display: flex;
+      flex-direction: column;
+      width: 33.33%;
+      .sec-top{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        .invest{
+          width: 200px;
+          height: 96px;
+          font-size: 39px;
+          font-weight: bold;
+          line-height: 1.23;
+          letter-spacing: 5.57px;
+          text-align: left;
+          color: white;
+          display: flex;
+          .text{
+            display: flex;
+            flex-direction: row;
+            .icon{
+              max-width: 150px;
+              margin-left: 40px;
+            }
+          }
+        }
+        .sec-mid{
+          .percent{
+            display: flex;
+            flex-direction: row;
+            color: white;
+            font-size: 36px;
+            letter-spacing: 7.2px;
+            text-align: left;
+            margin-top: 40px;
+            .number{
+              color: #ff8f00;
+            }
+          }
+          .daily{
+            color: #8392a7;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 1.0px;
+            text-align: left;
+          }
+        }
+      }
+      .sec-bot{
+        background-color: #171620;
+        padding: 30px;
+        color: #768396;
+        font-size: 12px;
+        line-height: 22px;
+        .fter{
+          display: inline;
+          // flex-direction: row;
+          .wt{
+            color: white;
+          }
+        }
+      }
+    }
+    .c3{
+      display: flex;
+      background-color: #3b4859;
+      flex-direction: column;
+      width: 33.33%;
+      .sec-top{
+        display: flex;
+        flex-direction: row;
+        .percent{
+          display: flex;
+          flex-direction: row;
+          color: white;
+          font-size: 36px;
+          letter-spacing: 7.2px;
+          text-align: left;
+          .number{
+            color: #ff8f00;
+          }
+        }
+      }
+      .sec-mid{
+        color: #8392a7;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 1.0px;
+        text-align: left;
+      }
+      .sec-bot{
+        font-size: 12px;
+        line-height: 22px;
+        color: #8392a7;
+        text-align: left;
+        margin-top: 27px;
+        .level{
+          display: inline;
+          b{
+            color: #ff8f00;
+          }
+        }
+      }
+    }
+  }
+  //section 2
+  .sec-2{
+    display: flex;
+    flex-direction: row;
+    .c1{
+      flex-grow: 3;
+      padding: 30px;
+      background-color: #201e2c;
+      min-height: 38vh;
+      width: 25%;
+      .sec-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 1.36;
+        letter-spacing: 1px;
+        text-align: left;
+        color: white;
+        img{
+          margin-left: 30px;
+          cursor: pointer;
+          max-width: 120px;
+        }
+      }
+      .sec-mid{
+        margin-top: 30px;
+        img{
+          max-width: 120px;
+        }
+      } 
+      .sec-bot{
+        margin-top: 30px;
+        height: 20px;
+        display: flex;
+        color: #8392a7;
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+    .c2{
+      flex-grow: 3;
+      background-color: white;
+      width: 25%;
+      .section{
+        padding: 30px;
+        color: #3b4859;
+        line-height: 30px;
+        letter-spacing: 1.0px;
+        font-size: 14px;
+      }
+      .num{
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 1.0px;
+      }
+      .blue{
+        color: #3b7cff;
+      }
+      .green{
+        color: #7ed321;
+      }
+      .orange{
+        color: #ff8f00;
+      }
+      .sec-mid{
+        background-color: #f9fafc;
+      }
+      .sec-bot{
+        background-color: #eff2f7;
+      }
+    }
+    .c3{
+      flex-grow: 3;
+      padding: 30px;
+      background-color: #39579a;
+      width: 25%;
+      .section{
+        color: white;
+        line-height: 30px;
+        letter-spacing: 1.0px;
+        font-size: 14px;
+      }
+      .content{
+        font-size: 12px;
+        line-height: 22px;
+        color: #eff2f7;
+      }
+    }
+    .c4{
+      flex-grow: 3;
+      padding: 30px;
+      background-color: #f9fafc;
+      width: 25%;
+    }
+  }
+}
