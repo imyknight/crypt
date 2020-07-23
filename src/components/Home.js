@@ -11,7 +11,11 @@ function Home() {
         <div className="sec-1">
           <div className="c1 pd-30">
             <div className="title">{data.title}</div>
-            <div className="content">{data.p}</div>
+            <div className="content">
+              <p>
+              {data.p}
+              </p>
+            </div>
             <img className="img-city" alt="city" src="/city.svg" />
           </div>
           <div className="c2">
