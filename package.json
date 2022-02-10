@@ -9,7 +9,7 @@
     "@urql/exchange-graphcache": "^3.0.1",
     "graphql": "^14.7.0",
     "graphql-tag": "^2.10.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
